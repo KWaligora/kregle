@@ -1,11 +1,11 @@
 .nav-item{
   text-align: center;
-  margin:0 auto !important;
-  display: inline-block !important;
+  margin:0 auto;
+  display: inline-block;
   float: none;
 }
 ul{
-  text-align: center !important;
+  text-align: center;
   display: inline-block;
   width:100%;
 }

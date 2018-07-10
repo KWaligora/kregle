@@ -7,7 +7,5 @@
 ul{
   text-align: center !important;
   display: inline-block;
-}
-body{
-  background-color: RED;
+  width:100%;
 }

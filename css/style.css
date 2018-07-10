@@ -1,0 +1,13 @@
+.nav-item{
+  text-align: center;
+  margin:0 auto !important;
+  display: inline-block !important;
+  float: none;
+}
+ul{
+  text-align: center !important;
+  display: inline-block;
+}
+body{
+  background-color: RED;
+}

@@ -38,7 +38,7 @@ $(window).scroll(function() {
         $(".navbar").addClass("bg-light");
         $("a").css("color", 'black');
       }
-      
+
       }); $(document).ready(function() {
       $('section[data-type="parallax"]').each(function() {
         var $bgobj = $(this);
@@ -57,6 +57,7 @@ $(window).scroll(function() {
 
     $(document).ready(function() {
       $(".nav-link").on('click', function(event) {
+          $('div').removeClass('show');
         if (this.hash !== "") {
           event.preventDefault();
           var hash = this.hash;
@@ -82,3 +83,9 @@ $(window).scroll(function() {
         }
       });
     });
+
+    $(document).ready(function(){
+    $(".nav-item").click(function(){
+        $("div").removeClass("show");
+    });
+});

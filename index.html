@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="head">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,23 +27,25 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <p class="brand">
-            RENOMA
-          </p>
+          <a href="#head">
+            <p class="brand">
+              RENOMA
+            </p>
+          </a>
           <li class="nav-item d-inline">
-            <a class="nav-link" href="#" style="color: white">O nas</a>
+            <a class="nav-link" href="#onas" style="color: white">O nas</a>
           </li>
           <li class="nav-item d-inline">
-            <a class="nav-link" href="#" style="color: white">Turnieje</a>
+            <a class="nav-link" href="#turnieje" style="color: white">Turnieje</a>
           </li>
           <li class="nav-item d-inline">
-            <a class="nav-link" href="#" style="color: white">Zasady gry</a>
+            <a class="nav-link" href="#zasady" style="color: white">Zasady gry</a>
           </li>
           <li class="nav-item d-inline">
-            <a class="nav-link" href="#" style="color: white">Cennik</a>
+            <a class="nav-link" href="#cennik" style="color: white">Cennik</a>
           </li>
           <li class="nav-item d-inline">
-            <a class="nav-link" href="#" style="color: white">Kontakt</a>
+            <a class="nav-link" href="#kontakt" style="color: white">Kontakt</a>
           </li>
         </ul>
       </div>
@@ -66,7 +68,7 @@
     </div>
   </header>
   <main>
-    <article class="about">
+    <article class="about" id="onas">
       <div class="container">
         <div class="row">
           <p class="p_about">O nas</p>
@@ -109,7 +111,7 @@
         </div>
       </div>
     </article>
-    <section class="wyniki">
+    <section class="wyniki" id="turnieje">
       <p class="p_wyniki">Turnieje</p>
       <div class="container">
         <div class="row">
@@ -131,9 +133,9 @@
         </div>
       </div>
     </section>
-    <section data-type="parallax">
+    <section data-type="parallax" class="d-none d-xl-block">
     </section>
-    <section class="zasady">
+    <section class="zasady" id="zasady">
       <p class="p_zasady">Zasady</p>
       <div class="container">
         <div class="row">
@@ -167,11 +169,10 @@
       </div>
       </div>
     </section>
-    <section class="cennik">
+    <section class="cennik" id="cennik">
       <p class="p_cennik">Cennik</p>
       <div class="container">
-        <div class="row">
-          <div class="col-12">
+          <div class="col-12 table-responsive">
             <table class="table table-dark">
               <thead>
                 <tr>
@@ -209,10 +210,9 @@
               </tbody>
             </table>
           </div>
-        </div>
       </div>
     </section>
-    <section>
+    <section id="kontakt">
       <p class="p_kontakt">Kontakt</p>
       <div class="container">
         <div class="row">
@@ -221,13 +221,10 @@
               width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
           <div class="col-lg-3 col-12 ">
-            <p><b>Godziny otwarcia</b><br/>
-            nie-czw 11:00-23:00 <br>
-            pt-sob 11:00-01:00 <br>
-            <font color="#ff3f34">tel. (32)2208570</font> <br>
-            adres: Wróblewskiego 37 <br>
-            Siemianowice Śląskie</p>
+            <p><b>Godziny otwarcia</b><br/> nie-czw 11:00-23:00 <br> pt-sob 11:00-01:00 <br>
+              <font color="#ff3f34">tel. (32)2208570</font> <br> adres: Wróblewskiego 37 <br> Siemianowice Śląskie</p>
             <a href="https://www.facebook.com/Siemianowice-Kr%C4%99gielnia-Renoma-1726115744300547/" target="_blank"><img class="social" src="img/facebook.png" alt="facebook"></a>
+            <a href="#head" class="up"><img src="img/up.png" class="up" alt="renoma" height="100px"></a>
           </div>
         </div>
       </div>

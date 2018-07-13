@@ -1,7 +1,8 @@
-body{
+body {
   font-family: Poppins;
 }
-ul{
+
+ul {
   text-align: center;
   display: inline-block;
   width: 75%;
@@ -9,12 +10,14 @@ ul{
   height: 200px;
   padding-top: 80px;
 }
-.nav_bg{
-height:100px !important;
+
+.nav_bg {
+  height: 100px !important;
 }
-.nav-item{
+
+.nav-item {
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
   display: inline-block;
   float: none;
   width: 150px;
@@ -26,38 +29,38 @@ height:100px !important;
   font-size: 20px;
   transition: 0.3s;
   transition-timing-function: ease;
-
 }
-.hov:hover{
+
+.hov:hover {
   background-color: #1e272e;
 }
 
-.hov2:hover{
+.hov2:hover {
   background-color: #ffc048;
 }
 
-.navbar,ul,a,.nav-link{
+.navbar, ul, a, .nav-link {
   transition: .3s;
 }
 
-.brand{
+.brand {
   display: none;
   font-size: 40px;
   position: fixed;
   margin-left: -175px;
-//  font-weight: 700;
+  //  font-weight: 700;
 }
 
-a{
-color: white;
+a {
+  color: white;
 }
 
-.img_header{
+.img_header {
   height: 100vh;
   filter: brightness(25%);
 }
 
-.div_header{
+.div_header {
   top: 0;
   text-align: center;
   position: absolute;
@@ -68,15 +71,16 @@ color: white;
   font-family: 'Dancing Script', cursive;
   font-size: 120px;
 }
-.div_header > p{
+
+.div_header>p {
   text-align: left;
 }
 
-.div_header > img{
+.div_header>img {
   height: 300px;
 }
 
-.div_header > span{
+.div_header>span {
   font-family: Poppins;
   font-size: 30px;
   font-weight: 900;
@@ -85,13 +89,13 @@ color: white;
 
 /*---------------------main-------------------------------------*/
 
-article, section{
+article, section {
   text-align: justify;
   font-size: 20px;
   padding-bottom: 50px;
 }
 
-.p_about{
+.p_about {
   font-weight: 600;
   font-size: 60px;
   text-align: center;
@@ -101,12 +105,12 @@ article, section{
   border-bottom: 5px solid #ffa801;
 }
 
-.wyniki{
+.wyniki {
   color: #333;
   background-color: #ffa801;
 }
 
-.p_wyniki{
+.p_wyniki {
   font-weight: 600;
   font-size: 60px;
   text-align: center;
@@ -117,23 +121,23 @@ article, section{
   width: 250px;
 }
 
-.card{
-  background-color:#ffd32a;
+.card {
+  background-color: #ffd32a;
   border: 3px solid #333;
   text-align: center;
   float: right;
   margin: 16px;
   width: 30%;
 }
-section[data-type="parallax"]{
-  background:url('http://www.siemianowice.pl/.image/db6SvgAEYBgZZ7YHaN9dL9st-V_vZKPtuwrE-FZusw.jpg') no-repeat;
+
+section[data-type="parallax"] {
+  background: url('http://www.siemianowice.pl/.image/db6SvgAEYBgZZ7YHaN9dL9st-V_vZKPtuwrE-FZusw.jpg') no-repeat;
   background-position: center top;
-  background-size: cover;
-  //min-height: 2000px;
+  background-size: cover; //min-height: 2000px;
   height: 500px;
 }
 
-.p_zasady{
+.p_zasady {
   font-weight: 600;
   font-size: 60px;
   text-align: center;
@@ -143,12 +147,12 @@ section[data-type="parallax"]{
   width: 250px;
 }
 
-.list-group-item.active{
+.list-group-item.active {
   background-color: white;
   border: 2px solid black;
 }
 
-.p_cennik{
+.p_cennik {
   font-weight: 600;
   font-size: 60px;
   text-align: center;
@@ -159,16 +163,16 @@ section[data-type="parallax"]{
   width: 250px;
 }
 
-.cennik{
+.cennik {
   background-color: #212529;
   padding-top: 50px;
 }
 
-table{
+table {
   letter-spacing: 3px;
 }
 
-.p_kontakt{
+.p_kontakt {
   font-weight: 600;
   font-size: 60px;
   text-align: center;
@@ -179,25 +183,44 @@ table{
   padding-top: 50px;
 }
 
-.social{
+.social {
   height: 50px;
 }
 
-.up{
-margin-top: 80%;
+.up {
+  margin-top: 80%;
   position: relative;
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
+  transition: 0.3s;
+  transition-timing-function: ease;
 }
 
-iframe{
+.up_border{
+  border: 4px solid #ffa801;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.up_border:hover {
+  background-color: #ffc048;
+}
+
+.kontakt_img {
+  text-align: center;
+  padding-top: 40px;
+}
+
+iframe {
   width: 100%;
 }
 
-footer{
+footer {
   text-align: center;
   padding-bottom: 20px;
 }
-footer>a{
-  color:#ffa801 !important;
+
+footer>a {
+  color: #ffa801 !important;
 }

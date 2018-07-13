@@ -232,8 +232,9 @@
     </section>
   </main>
   <script src="js/jquery.tabSlideOut.js"></script>
-  <div id="my-tab"><span class="handle">Facebook</span><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSiemianowice-Kr%25C4%2599gielnia-Renoma-1726115744300547%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+  <div id="my-tab" style="margin-top: 100px;"><span class="handle">Facebook</span><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSiemianowice-Kr%25C4%2599gielnia-Renoma-1726115744300547%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
       width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></div>
+  <div id="my-tab2" style="padding-top: 23px; height: 71px;"><span class="handle" style="background-color: #05c46b">Telefon</span><b>(32)2208570</b></div>
   <footer>
     Copyrights &copy 2018 <a href="http://www.mansio.pl" target="_blank">Mansio.pl</a>
   </footer>
@@ -243,6 +244,10 @@
   </script>
   <script>
     $('#my-tab').tabSlideOut({
+      'tabLocation': 'right',
+      'action': 'hover'
+    });
+    $('#my-tab2').tabSlideOut({
       'tabLocation': 'right',
       'action': 'hover'
     });

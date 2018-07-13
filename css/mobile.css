@@ -5,56 +5,65 @@
   .nav-item {
     margin-bottom: 5px;
   }
-  .div_header > p {
+  .div_header>p {
     text-align: center;
     font-size: 75px;
-}
-.div_header > img {
+  }
+  .div_header>img {
     height: 170px;
     text-align: center;
-}
-.div_header > span {
+  }
+  .div_header>span {
     font-family: Poppins;
     font-size: 27px;
     display: inherit;
     text-align: center;
     margin-top: -100px;
+  }
+  img {
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .list-group {
+    margin-bottom: 20px;
+  }
+  iframe {
+    margin-bottom: 40px;
+  }
+  .social {
+    margin-bottom: 50px;
+  }
 }
-img{
-  text-align: center;
-  display: block;
-  margin: auto;
-}
-.list-group{
-  margin-bottom: 20px;
-}
-iframe{
-  margin-bottom: 40px;
-}
-.social{
-  margin-bottom: 50px;
-}
-}
+
 @media only screen and (max-width: 1320px) {
   .brand {
     display: none !important;
   }
 }
+
 @media only screen and (max-width: 576px) {
   .card {
     float: none;
     width: 100%;
     padding: 15px;
     margin: auto;
-
   }
 }
+
 @media only screen and (max-width: 1025px) {
-  .div_header > span {
-      font-family: Poppins;
-      font-size: 27px;
-      display: inherit;
-      text-align: center;
-      margin-top: 0px;
+  .div_header>span {
+    font-family: Poppins;
+    font-size: 27px;
+    display: inherit;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 780px) {
+  #my-tab, #my-tab2 {
+    display: none !important;
   }
 }
